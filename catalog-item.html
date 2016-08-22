@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <title>Барбершоп "Бородинский"</title>
   </head>
-  <body style="background-color: gray;">
+  <body>
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          <div class="index-logo">
+          <div class="page-logo">
             <a href="#"><img src="img/logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
             </a>
           </div>
@@ -29,7 +29,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
         <h1>Набор для путешествий "Baxter of California"</h1>
         <div class="breadcrumbs">
           <ul>
@@ -41,10 +41,22 @@
         </div>
         <div class="item-article">
           <div class="item-images">
-            <img src="img/item_photo1.jpg" width="486" height="524" alt="Baxter of California">
-            <img src="img/item_photo2.jpg" width="166" height="175" alt="Baxter of California">
-            <img src="img/item_photo3.jpg" width="166" height="175" alt="Baxter of California">
-            <img src="img/item_photo4.jpg" width="166" height="175" alt="Baxter of California">
+            <div class="main-picture">
+              <img src="img/item_photo1.jpg" width="460" height="498" alt="Baxter of California">
+            </div>
+            <div class="item-gallery">
+              <ul>
+                <li>
+                  <img src="img/item_photo2.jpg" width="140" height="149" alt="Baxter of California">
+                </li>
+                <li>
+                  <img src="img/item_photo3.jpg" width="140" height="149" alt="Baxter of California">
+                </li>
+                <li>
+                  <img src="img/item_photo4.jpg" width="140" height="149" alt="Baxter of California">
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="item-info">
             <span class="in-stock">Есть в наличии</span>
@@ -73,7 +85,7 @@
             </ul>
           </div>
         </div>
-      </main>
+    </main>
       <footer class="main-footer">
         <div class="container">
           <div class="footer-contacts">
@@ -83,7 +95,7 @@
             Телефон: +7 (812) 666-02-66
           </div>
           <div class="footer-social">
-            <p>Давайте дружить!</p>
+            Давайте дружить!
             <a class="social-btn social-btn-vk" href="#">
               <img src="img/vk-social.png" width="25" height="15" alt="vk-icon">
               Вконтакте</a>
